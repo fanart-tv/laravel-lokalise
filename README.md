@@ -46,5 +46,5 @@ Only the array key is used in the lookup, I use the values in my app but they ar
 This will push your base language file up to locali.se replacing what is currently there and adding additional keys
 
     php artisan:pull
-This will pull every translation, then it will match it against your array of languages, skip the english one and add any others.
+This will pull every translation, then it will match it against your array of languages, skip the english one and add any others.  Additionally if the lang is es_ES it will change it to just es
 
