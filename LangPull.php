@@ -17,7 +17,7 @@ class LangPull extends Command
     protected $signature = 'lang:pull';
 
     protected $apikey = 'YOUR_API_KEY';
-    protected $project = 'YOUR_PROJECT_KEY';
+    protected $project = 'YOUR_PROJECT_ID';
 
     /**
      * The console command description.
