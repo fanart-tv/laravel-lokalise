@@ -20,10 +20,10 @@ in /app/Console/Kernal.php add the following to  `protected $commands = [` array
     Commands\LangPush::class,
     Commands\LangPull::class,
 
-Update both files
+Update both files with your API key and project id
 
     protected $apikey = 'YOUR_API_KEY';
-    protected $project = 'YOUR_PROJECT_KEY';
+    protected $project = 'YOUR_PROJECT_ID';
     
 Add the following to /config/app.php
 
