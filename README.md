@@ -1,7 +1,7 @@
 # laravel-lokalise
 Console integration with lokali.se
 
-This is a very simple pair of files that will allow you to use php artisan to automatically push your base language and import your translations to and from https://lokali.se
+This is a very simple pair of files that will allow you to use `php artisan lang:push` and `php artisan lang:pull` to automatically push your base language and import your translations to and from https://lokali.se
 
 ## Requirements
 These scripts use GuzzleHttp so make sure that is installed first via composer
