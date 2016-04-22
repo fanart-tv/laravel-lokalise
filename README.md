@@ -15,12 +15,10 @@ As I mentioned this is currently a very simple pair of files, as such it makes t
 ## Installation
 Put LangPull.php and LangPush.php in /app/Console/Commands/
 
-add
+in /app/Console/Kernal.php add the following to  `protected $commands = [` array
 
     Commands\LangPush::class,
     Commands\LangPull::class,
-
-to `protected $commands = [ array` in /app/Console/Kernal.php
 
 Update both files
 
