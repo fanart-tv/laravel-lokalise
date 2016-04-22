@@ -25,7 +25,7 @@ Update both files
     protected $apikey = 'YOUR_API_KEY';
     protected $project = 'YOUR_PROJECT_KEY';
     
-In /config/app.php
+Add the following to /config/app.php
 
     'site_lang' => [
         'en' => [
